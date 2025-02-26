@@ -10,7 +10,8 @@
  *   EXPECTED OUTPUT: $20.00
  *
  *   TEST SCENARIO 2
- *   Your choice!
+ *   Input: 53: Bill, 15: tip
+ *   Expected output: 7.95
  */
 
 public class TipCalculator {
