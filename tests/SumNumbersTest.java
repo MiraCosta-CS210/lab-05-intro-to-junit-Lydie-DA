@@ -1,18 +1,22 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TipCalculatorTest {
-
-    @org.junit.jupiter.api.Test
-     void calculateTipTest1() {
-        TipCalculator calculator = new TipCalculator();
-        double result = calculator.calculateTip(100,20);
-        assertEquals(20,result);
-    }
+public class SumNumbersTest {
 
     @org.junit.jupiter.api.Test
-    void calculateTipTest2() {
-        TipCalculator calculator = new TipCalculator();
-        double result = calculator.calculateTip(53,15);
-        assertEquals(7.95,result);
+    void sumNumbersTest1() {
+        SumNumbers sum = new SumNumbers();
+        int result = sum.sumIsEven(1,1);
+        assertEquals(1,result);
     }
+    @org.junit.jupiter.api.Test
+    void sumNumbersTest2() {
+        SumNumbers sum = new SumNumbers();
+        int result = sum.sumIsEven(1,2);
+        assertEquals(0,result);
+    }
+
+
+
 }
+
+
